@@ -1852,7 +1852,7 @@ site-author-image:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #49ffd7;
+  background: #f6ff91;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1876,6 +1876,14 @@ site-author-image:hover {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
+  text-overflow: ellipsis;
+}
+li.recent_posts_li {
+  text-align: cengter;
+  display: block;
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 .sidebar-nav {
