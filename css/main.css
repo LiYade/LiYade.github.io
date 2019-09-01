@@ -1972,7 +1972,7 @@ site-author-image:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2d4aff;
+  background: #ff90ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3173,6 +3173,9 @@ img.img-topic {
   }
   .comments {
     margin: 40px 0px 40px 0px !important;
+  }
+  .footer {
+    box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.5);
   }
 }
 .sidebar-active #sidebar-dimmer {
