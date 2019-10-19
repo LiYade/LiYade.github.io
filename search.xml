@@ -1,8 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[me]]></title>
-    <url>%2F2019%2F09%2F02%2Fme%2F</url>
-    <content type="text"><![CDATA[]]></content>
+    <title><![CDATA[ForexTrading-19_10_14-Diary]]></title>
+    <url>%2F2019%2F10%2F14%2FForexTrading-19_10_14-Diary%2F</url>
+    <content type="text"><![CDATA[交易总结今天是自9-11日大幅亏损，资金回撤60%总结之后，第一个交易日。整体日交易情况有以下几点： 总体概况 单数： 总共做单10单。 品种： 黄金（9单） 美原油（1单） 总体状况： 盈利6单，亏损4单。 最大手数1手，最小手数0.5手。 盈利单数大于亏损单数。 盈利金额大于亏损金额。 最大盈利+328，最大亏损-578。 总手续费-56，最终盈利+108。 止盈止损： 设置止盈、止损的单子4单。 按照预期价位止盈、止损的单子两单。 自评自省改进措施交易记录 Ticket Type Size Item Price S / L T / P Price Comm R/O Swap Trade P/L 1 buy 1.00 xauusd 1484.93 1481.80 1488.21 1488.21 -7.00 0.00 328.00 2 sell 1.00 xauusd 1486.05 0.00 0.00 1485.53 -7.00 0.00 52.00 3 buy 1.00 xauusd 1485.20 0.00 1487.66 1485.54 -7.00 0.00 34.00 4 sell 1.00 xauusd 1487.34 1492.57 1474.14 1493.12 -7.00 0.00 -578.00 5 buy 1.00 xauusd 1488.49 0.00 0.00 1489.83 -7.00 0.00 134.00 6 sell 0.50 xauusd 1494.47 0.00 0.00 1491.20 -3.50 0.00 163.50 7 buy 5.00 xtiusd 53.62 0.00 0.00 53.33 0.00 0.00 -145.00 8 sell 0.50 xauusd 1494.47 0.00 0.00 1489.80 -3.50 0.00 233.50 9 buy 1.00 xauusd 1492.25 1488.00 1495.88 1491.85 -7.00 0.00 -40.00 10 sell 1.00 xauusd 1492.14 0.00 0.00 1492.32 -7.00 0.00 -18.00 -56.00 0.00 164.00 Profit +108.00]]></content>
+      <categories>
+        <category>ForexTrading</category>
+        <category>Diary</category>
+      </categories>
+      <tags>
+        <tag>Transaction diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[ForexTrading-1-MyRules]]></title>
+    <url>%2F2019%2F10%2F12%2FForexTrading-1-MyRules%2F</url>
+    <content type="text"><![CDATA[一、条条框框1、保持孤独：༺ 在有持仓情况下，不与人交流。专注技术面和基本面数据分析。༺ 影响判断和情绪。 2、开仓：༺ 相信最初的决定。在入场前谨慎寻找止盈线止损线，入场后不要随意改动。༺ 人们在入场前总是清醒的，入场后总是受影响的，大波动时总是疯狂的。 3、情绪：༺ 不要在有情绪的情况下做单。༺ 不要带着情绪和市场刚。 4、止盈止损移动：༺ 坐反的情况下，不要移动止盈止损。༺ 坐对的情况下移动止盈放飞利润，移动止损保护利润。 5、常见形态：༺ 坐对情况下：做对情况下等待形态正常走下去，即使后续反走最多也是利润回吐。༺ 坐反的情况：及时止损出局，或者之前设置的止损不要懂。不要心存侥幸期望形态错误挽回亏损。 6、复盘：༺ 为什么盈利、盈利是否达到最大化、利润为何回吐、止盈是否及时。能不能固化模型。固化的常见形态画出来。༺ 为什么亏损、哪些地方考虑的不到位。是否可以避免。 7、理智：༺ 清醒对待亏损，有赚有亏。不能只在赚的时候开心，一点点亏损就失落不已。༺ 不要压榨自己，迎接盈利也接受亏损。༺ 包括当天，向前回退两天处于盈利状态就值得开心。 二、资金分配 稳定账户 暴力账户 资金上限 20000 500 出金周次 第一周 第二周 第三周 第四周 每周 出金 出金 加入暴力账户 提升稳定账户 出金大于500部分 出金日期 每周四 ###]]></content>
+      <categories>
+        <category>ForexTrading</category>
+        <category>交易规则</category>
+      </categories>
+      <tags>
+        <tag>ForexTrading</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[leetCode-5-TinyUrl加解密]]></title>
+    <url>%2F2019%2F09%2F09%2FleetCode-5-TinyUrl%E5%8A%A0%E8%A7%A3%E5%AF%86%2F</url>
+    <content type="text"><![CDATA[## 123456789101112131415161718192021222324// 沙雕做法class Solution &#123;public: // Encodes a URL to a shortened URL. string encode(string longUrl) &#123; for (size_t i=0; i&lt;longUrl.size(); i++) &#123; longUrl[i] += 2; &#125; return longUrl; &#125; // Decodes a shortened URL to its original URL. string decode(string shortUrl) &#123; for (size_t i=0; i&lt;shortUrl.size(); i++)&#123; shortUrl[i] -= 2; &#125; return shortUrl; &#125;&#125;;// Your Solution object will be instantiated and called as such:// Solution solution;// solution.decode(solution.encode(url)); ## ##]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[leetCode-4-IP无效化]]></title>
+    <url>%2F2019%2F09%2F09%2FleetCode-4-IP%E6%97%A0%E6%95%88%E5%8C%96%2F</url>
+    <content type="text"><![CDATA[1234567891011121314151617181920// 借助新的string变量class Solution &#123;public: string defangIPaddr(string address) &#123; string subStr = "[.]"; string result; for(int i=0; i&lt;address.size();i++)&#123; if ('.' == address[i])&#123; result += subStr; &#125; else &#123; result += address[i]; &#125; &#125; return result; &#125;&#125;; 123456789101112131415161718//使用原变量class Solution &#123;public: string defangIPaddr(string address) &#123; size_t len = address.size(); for(size_t i=0; i&lt;len; i++)&#123; if ('.' == address[i]) &#123; address.insert(i, "["); address.insert(i+2, "]"); i += 2; len += 2; &#125; &#125; return address; &#125;&#125;; 1// 正则 ## ## ##]]></content>
+      <categories>
+        <category>leetCode</category>
+        <category>简单</category>
+      </categories>
+      <tags>
+        <tag>leetCode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[go语言学习笔记-4-函数]]></title>
+    <url>%2F2019%2F09%2F08%2Fgo%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-4-%E5%87%BD%E6%95%B0%2F</url>
+    <content type="text"><![CDATA[## ## ##]]></content>
+      <categories>
+        <category>go</category>
+      </categories>
+      <tags>
+        <tag>go</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[leetCode-2-整数反转]]></title>
+    <url>%2F2019%2F09%2F08%2FleetCode-2-%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%2F</url>
+    <content type="text"><![CDATA[Given a 32-bit signed integer, reverse digits of an integer. Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31, 2^31 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows. @LeetCodeleetcode-cn.com/problems/reverse-integer 给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。 示例 1: 输入: 123 输出: 321 示例 2: 输入: -123 输出: -321 示例 3: 输入: 120 输出: 21 注意: 假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [−231, 231 − 1]。请根据这个假设，如果反转后整数溢出那么就返回 0。 @力扣leetcode-cn.com/problems/reverse-integer 使用更大变量转换，做溢出判断12345678910111213141516class Solution &#123;public: int reverse(int x) &#123; long iResult = 0; while(0 != x)&#123; iResult = iResult * 10 + x % 10; if (INT_MAX &lt;= iResult || INT_MIN &gt;= iResult)&#123; return 0; &#125; x = x/10; &#125; return int(iResult); &#125;&#125;; 判断前 n-1位，再判断最后一位，做溢出判断 ##]]></content>
+      <categories>
+        <category>leetCode</category>
+        <category>简单</category>
+      </categories>
+      <tags>
+        <tag>leetCode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[leetCode-1-twoSum]]></title>
+    <url>%2F2019%2F09%2F03%2FleetCode-1-twoSum%2F</url>
+    <content type="text"><![CDATA[Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice. @LeetCodeleetcode-cn.com/problems/two-sum 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。 示例: 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] + nums[1] = 2 + 7 = 9 所以返回 [0, 1] @力扣leetcode-cn.com/problems/two-sum 暴力破解C++版 C++ 暴力破解，时间复杂度O(N^2),空间复杂度O(1) 执行用时 : 312 ms内存消耗 : 9.1 MB 1234567891011121314class Solution &#123;public: vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) &#123; for (int i = 0; i &lt; nums.size() - 1; ++i)&#123; for(int j = i + 1; j &lt; nums.size(); ++j)&#123; if (target == nums[i] + nums[j])&#123; return &#123;i, j&#125;; &#125; &#125; &#125; return &#123;&#125;; &#125;&#125;; go版 go暴力破解，时间复杂度O(N^2),空间复杂度O(1) 执行用时 : 56 ms内存消耗 : 3.1 MB 1234567891011func twoSum(nums []int, target int) []int &#123; for i:=0; i&lt;len(nums)-1; i++&#123; for j:=i+1; j&lt;len(nums); j++&#123; if target == nums[i] + nums[j]&#123; return []int&#123;i, j&#125; &#125; &#125; &#125; return []int&#123;&#125;&#125; 两遍hashmap: 将数据按照&lt;value，index&gt;的方式存放到map中。再遍历查找是否存在符合条件数据，返回对应下标。 不能和自己比不能存在值相同的数据 1234567891011121314151617181920class Solution &#123;public: vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) &#123; map&lt;int, int&gt; tempResult; // 散列数据 for (unsigned int i=0; i&lt;nums.size(); i++)&#123; tempResult[nums[i]] = i; &#125; for(unsigned int j=0; j&lt;nums.size(); j++)&#123; // 存在且不等于自己 if (0 != tempResult.count(target-nums[j]) &amp;&amp; j != tempResult[target-nums[j]])&#123; return &#123;j, tempResult[target-nums[j]]&#125;; &#125; &#125; return &#123;&#125;; &#125;&#125;; 一遍hashmap go暴力破解，时间复杂度O(1),空间复杂度O(1) 执行用时 : 8 ms内存消耗 : 11.1 MB 123456789101112131415class Solution &#123;public: vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) &#123; map&lt;int, int&gt; tempResult; for (unsigned int i=0; i&lt;nums.size(); i++)&#123; if (0 != tempResult.count(target-nums[i]))&#123; return &#123;i, tempResult[target-nums[i]]&#125;; &#125; tempResult[nums[i]] = i; &#125; return &#123;&#125;; &#125;&#125;; 12345678910111213141516171819202122232425262728293031323334func twoSum(nums []int, target int) []int &#123; hashMap := make(map[int]int) for i := 0; i &lt; len(nums); i++ &#123; another, exist := hashMap[target-nums[i]] if exist &#123; return []int&#123;another, i&#125; &#125; hashMap[nums[i]] = i &#125; return []int&#123;&#125;&#125;作者：lvu链接：https://leetcode-cn.com/problems/two-sum/solution/goyu-yan-ban-ben-ji-bai-9883-goban-ben-by-lvu/来源：力扣（LeetCode）著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。func twoSum(nums []int, target int) []int &#123;maps := make(map[int]int)nes := make([]int,0)for key,val := range nums &#123; ant := target - val _,st := maps[ant] if st &#123; nes = append(nes,maps[ant]) nes = append(nes,key) return nes &#125; maps[val] = key&#125;return nes&#125;]]></content>
+      <categories>
+        <category>leetCode</category>
+        <category>简单</category>
+      </categories>
+      <tags>
+        <tag>leetCode</tag>
+        <tag>Array</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[leetCode打怪记]]></title>
+    <url>%2F2019%2F09%2F03%2FleetCode%E6%89%93%E6%80%AA%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[写给自己 坚持每天刷leetCode，记录刷题思路及过程，以便后期回顾。 慢点没关系，不要停下来。 借鉴学习，融汇贯通。不需要在自己没要想法的时候，耻于参考别人思路。善于总结，融汇贯通，不钻牛角尖。 暂定小目标暂时给自己定一个小目标吧，每周最少三道题。使用go或者c++完成，并善于使用git来管理代码。 奖励刷到100道，奖励自己大疆 Osmo Pocket,加油！！！]]></content>
+      <categories>
+        <category>leetCode</category>
+      </categories>
+      <tags>
+        <tag>leetCode</tag>
+      </tags>
   </entry>
 </search>
